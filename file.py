@@ -1,0 +1,10 @@
+#Learning reading file
+file = open("/sdcard/Download/style.txt", "r")
+cont = file.read()
+print(cont)
+file.close()
+file_1 = open("/sdcard/kaku.txt", "w")
+print(file_1.write("sob shesh"))
+file_1.close()
+file_test = open("/sdcard/kaku.txt", "r")
+print(file_test.read())
